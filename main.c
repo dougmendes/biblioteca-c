@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//AUTOR//
+
 typedef struct autor
 {
     char nome[200];
@@ -13,7 +13,6 @@ typedef struct
     Autor *inicio;
 } ListaAutor;
 
-//USUARIO//
 typedef struct usuario
 {
     int id;
@@ -23,8 +22,6 @@ typedef struct usuario
     struct usuario *proximo;
 
 } Usuario;
-
-
 
 typedef struct
 {
